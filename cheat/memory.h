@@ -5,7 +5,7 @@
 class Memory {
 
 private:
-	DWORD id = 0;			// ID of process
+	DWORD id = 0;		// ID of process
 	HANDLE process = NULL;	// Handle to process
 
 public:
